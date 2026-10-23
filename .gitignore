@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets: never commit
+.env
+*.pem
+*.p8
+*.key
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Generated data (regenerate it instead of committing it)
+data/
+
+# macOS
+.DS_Store

@@ -1,0 +1,9 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace      # strip spaces at line ends
+      - id: end-of-file-fixer        # every file ends with one newline
+      - id: check-yaml               # catch broken YAML (dbt is full of it)
+      - id: check-added-large-files  # stop accidental data dumps
+      - id: detect-private-key       # block keys from ever being committed

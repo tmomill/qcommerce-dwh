@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "redhat.vscode-yaml",
+    "github.vscode-pull-request-github",
+    "ms-azuretools.vscode-docker"
+  ]
+}
